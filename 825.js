@@ -42,7 +42,7 @@ var numFriendRequests = function(ages) {
             if(ageArray[j] == 0){
                 continue;
             }
-            if(i<100 && j>100){
+            if(i<105 && j>105){
                 continue;
             }
             if(i==j){
@@ -56,9 +56,9 @@ var numFriendRequests = function(ages) {
     return result;
 };
 
-console.log(numFriendRequests([16,16]));
+console.log(numFriendRequests([18,18]));
 console.log(numFriendRequests([16,17,18]));
-console.log(numFriendRequests([20,30,100,110,120]));
+console.log(numFriendRequests([21,34,100,111,120]));
 
 console.log(numFriendRequests([8,85,24,85,69]));
 
